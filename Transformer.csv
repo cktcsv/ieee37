@@ -1,0 +1,5 @@
+name,enabled,n_phases,n_conds,base_freq,x_hl,x_ht,x_lt,pct_load_loss,ppm_anti_float
+subxf,true,3,4,60,0.08,0.35,0.3,2,1E-6
+xfm1,true,3,4,60,0.0181,0.35,0.3,0.09,1E-6
+reg1a,true,1,2,60,0.01,0.35,0.3,0.4,1E-6
+reg1c,true,1,2,60,0.01,0.35,0.3,0.4,1E-6
