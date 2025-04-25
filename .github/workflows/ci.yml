@@ -21,7 +21,7 @@ jobs:
           ref: master
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Archive
-        run: tar -cvf ieee37.ckt *.csv *.json README LICENSE
+        run: tar -cvf ieee37.ckt *.csv README LICENSE
       - name: Upload archive
         uses: actions/upload-artifact@v4
         with:
